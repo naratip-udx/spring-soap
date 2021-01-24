@@ -72,10 +72,10 @@
                 </executions>
                 <configuration>
                     <schemaLanguage>WSDL</schemaLanguage>
-                    <generatePackage>com.github.naratip_udx.consuming_web_service.wsdl</generatePackage>
+                    <generatePackage>com.github.naratipudx.consuming.wsdl</generatePackage>
                     <schemas>
                         <schema>
-                            <ur>http://localhost:8080/ws/countries.wsdl</ur>
+                            <url>http://localhost:8080/ws/countries.wsdl</url>
                         </schema>
                     </schemas>
                 </configuration>

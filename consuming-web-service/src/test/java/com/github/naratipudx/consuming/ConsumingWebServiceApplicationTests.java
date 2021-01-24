@@ -1,4 +1,4 @@
-package com.github.naratip_udx.consuming_web_service;
+package com.github.naratipudx.consuming;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
