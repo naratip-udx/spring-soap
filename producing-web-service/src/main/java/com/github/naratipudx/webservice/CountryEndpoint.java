@@ -8,7 +8,7 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
 @Endpoint
 public class CountryEndpoint {
-    private static final String NAMESPACE_URI = "http://github.com/naratip-udx/producing-web-service";
+    private static final String NAMESPACE_URI = "http://github.com/naratipudx/webservice";
     private final CountryRepository countryRepository;
 
     @Autowired

@@ -1,6 +1,6 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  xmlns:tns="http://github.com/naratip-udx/producing-web-service"
-  targetNamespace="http://github.com/naratip-udx/producing-web-service"
+  xmlns:tns="http://github.com/naratipudx/webservice"
+  targetNamespace="http://github.com/naratipudx/webservice"
   elementFormDefault="qualified">
 
   <xs:element name="getCountryRequest">

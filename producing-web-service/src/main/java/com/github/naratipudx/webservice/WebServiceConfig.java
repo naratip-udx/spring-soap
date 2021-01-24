@@ -30,7 +30,7 @@ public class WebServiceConfig extends WsConfigurerAdapter {
         DefaultWsdl11Definition definition = new DefaultWsdl11Definition();
         definition.setPortTypeName("CountriesPort");
         definition.setLocationUri("/ws");
-        definition.setTargetNamespace("http://github.com/naratip-udx/producing-web-service");
+        definition.setTargetNamespace("http://github.com/naratipudx/webservice");
         definition.setSchema(countriesSchema);
         return definition;
     }

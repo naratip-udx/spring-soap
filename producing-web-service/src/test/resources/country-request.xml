@@ -1,7 +1,5 @@
-<!-- curl -H "content-type: text/xml" -d @country-request.xml http://localhost:8080/ws -->
-
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
-    xmlns:pws="http://github.com/naratip-udx/producing-web-service">
+    xmlns:pws="http://github.com/naratipudx/webservice">
     <soapenv:Header/>
     <soapenv:Body>
         <pws:getCountryRequest>
@@ -9,3 +7,5 @@
         </pws:getCountryRequest>
     </soapenv:Body>
 </soapenv:Envelope>
+
+<!-- curl -H "content-type: text/xml" -d @country-request.xml http://localhost:8080/ws -->
