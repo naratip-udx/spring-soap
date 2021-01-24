@@ -1,4 +1,4 @@
-package com.github.naratip_udx.producing_web_service;
+package com.github.naratipudx.webservice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;

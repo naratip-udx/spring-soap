@@ -1,4 +1,4 @@
-package com.github.naratip_udx.producing_web_service;
+package com.github.naratipudx.webservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
