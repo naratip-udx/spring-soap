@@ -12,7 +12,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.example</groupId>
+    <groupId>com.github.naratip-udx</groupId>
     <artifactId>producing-web-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>producing-web-service</name>
@@ -72,7 +72,7 @@
                 </executions>
                 <configuration>
                     <sources>
-                        <source>${project.basedir}/src/main/resources/*.xsd</source>
+                        <source>${project.basedir}/src/main/resources/countries.xsd</source>
                     </sources>
                 </configuration>
             </plugin>

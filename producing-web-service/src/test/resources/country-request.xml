@@ -1,0 +1,11 @@
+<!-- curl -H "content-type: text/xml" -d @country-request.xml http://localhost:8080/ws -->
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:pws="http://github.com/naratip-udx/producing-web-service">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <pws:getCountryRequest>
+            <pws:name>Spain</pws:name>
+        </pws:getCountryRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
